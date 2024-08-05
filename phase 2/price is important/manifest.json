@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "version":"1.0.0",
+    "name":"sort by price",
+    "description":"sort  list of items by price",
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["sorter.js"]
+        }
+    ]
+}

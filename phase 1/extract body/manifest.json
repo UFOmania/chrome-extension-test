@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "name":"extract body",
+    "version":"1.0.0",
+    "description":"extract the full body of any website and print it in the console",
+    "content_scripts":[
+        {
+            "matches":["<all_urls>"],
+            "js":["app.js"]
+        }
+    ]
+}

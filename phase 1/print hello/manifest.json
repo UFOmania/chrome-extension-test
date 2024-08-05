@@ -1,0 +1,17 @@
+{
+  "manifest_version" : 3,
+  "name": "only hello world",
+  "version":"1.0.0",
+  "description":"a basic chrome extension printe hello world in a popups and the console",
+  "content_scripts":[
+    {
+      "matches":["<all_urls>"],
+      "js":["hello.js"]
+    }
+  ],
+  "action":{
+    "default_popup":"interface.html"
+  }
+
+}
+  

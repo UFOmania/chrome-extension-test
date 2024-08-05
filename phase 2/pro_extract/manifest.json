@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "version":"1.0.0",
+    "name":"pro extract",
+    "description":"extract date from a website and show it in a propriet order",
+    "content_scripts":[
+        {
+            "matches":["http://127.0.0.1:5500/phase%202/resaurses/index.html"],
+            "js":["extractor.js"]
+        }
+    ]
+}

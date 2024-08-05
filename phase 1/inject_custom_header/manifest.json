@@ -1,0 +1,12 @@
+{
+    "name":"header injector",
+    "descripation":"inject a cusotom header inside a website",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "content_scripts":[
+        {
+        "matches":["<all_urls>"],
+        "js":["content.js"]
+        }
+    ]
+}

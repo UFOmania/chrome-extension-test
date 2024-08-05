@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 3,
+    "version":"1.0.0",
+    "name" :"ultimate header",
+    "description": "a header panel containes a button that displays a hello world in the console",
+    "content_scripts":[
+        {
+        "matches":["<all_urls>"],
+        "js":["content.js"]
+        }
+    ]
+}

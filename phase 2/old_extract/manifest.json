@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "version":"1.0.0",
+    "name":"old_extract",
+    "description":"extracta list of elements in a website and show it in the console",
+    "content_scripts":[
+        {
+            "matches":["http://127.0.0.1:5500/phase%202/resaurses/index.html"],
+            "js":["extracter.js"]
+        }
+    ]
+}
